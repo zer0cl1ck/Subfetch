@@ -30,8 +30,11 @@ source ~/.zshrc
 =============================================
 
 options:
+
   -h, --help           show this help message and exit
+
   -d, --domain DOMAIN  Single domain
+  
   -f, --file FILE      File with domains
 
 
