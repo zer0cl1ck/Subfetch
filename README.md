@@ -13,8 +13,7 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 sudo apt install sublist3r -y
 
 # Findomain
-wget https://github.com/Findomain/Findomain/releases/latest/download/findomain-linux -O /usr/local/bin/findomain
-chmod +x /usr/local/bin/findomain
+apt install finddomain
 
 # Chaos CLI
 go install github.com/projectdiscovery/chaos-client/cmd/chaos@latest
@@ -24,7 +23,6 @@ echo 'export CHAOS_API_KEY="your_api_key_here"' >> ~/.zshrc
 source ~/.zshrc
 
 
-////
 ////
 ////
 ////
