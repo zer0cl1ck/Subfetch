@@ -2,6 +2,8 @@
 
 Subfetch is a Python-based subdomain enumeration tool designed to simplify the process of gathering subdomains from multiple sources. It integrates popular tools like Subfinder, Sublist3r, Findomain, and the Chaos API, and also fetches data from CRT.sh, allowing users to quickly discover valid subdomains for a given domain or a list of domains. The tool cleans and aggregates the results, removing duplicates, and saves them in an easy-to-read format. Subfetch was created to streamline reconnaissance for penetration testers, bug bounty hunters, and security enthusiasts, eliminating the need to run multiple tools individually and manually combine outputs. By providing a single unified interface, it helps users save time while ensuring comprehensive coverage across various subdomain sources. Its simplicity, efficiency, and integration with widely-used enumeration services make it an essential utility for anyone involved in web security research.
 
+After execution, Subfetch automatically collects and deduplicates all discovered subdomains and saves them to a file named subdomains.txt in the current working directory.
+
 # Prerequisites
 
 The following tools must be installed and available in your system PATH.
